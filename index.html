@@ -20,11 +20,12 @@
   </head>
 
   <body>
-    <!-- Header
+    <div class="content">
+      <!-- Header
    - Logo
    - Nav
     -->
-    <!---
+      <!---
     <div class="header" class="col-12">
       <div class="row">
         <h1>Header header</h1>
@@ -33,128 +34,151 @@
       <div class="header__logo">
     </div>
   -->
-    <header class="fluid-container" class="row">
-      <div class="header">
-        <h1 class="col-6 title">cucina quarantena.</h1>
-        <!-- <h2 class="subtitle">
-            ...when you finally have the time to cook all you want
-          </h2> -->
-        <h3 class="col-4">A cookbook for time consuming recipes</h3>
-      </div>
+      <header>
+        <div class="container__header">
+          <div class="header__title">
+            <h1>cucina quarantena.</h1>
+            <!-- <h2 class="subtitle">
+        ...when you finally have the time to cook all you want
+      </h2> -->
+          </div>
+          <div class="header__subtitle">
+            <h3>A cookbook for time consuming recipes</h3>
+          </div>
+        </div>
 
-      <nav class="navbar navbar-fixed-top">
-        <!--<a class="menu__item" href="#">Home</a>-->
-        <a class="menu__item" href="#breakfast">Breakfast</a>
-        <a class="menu__item" href="#lunch">Lunch</a>
-        <a class="menu__item" href="#dinner">dinner</a>
-        <!--<a class="menu__item" href="#">About</a>
-        <a class="menu__item" href="#">Contact</a>-->
-      </nav>
-    </header>
-    <!--Box 1: Big image-->
-    <hr />
-    <a href="Recipe_article.html">Link to article page</a>
-    <div class="home_image_container">
-      <img
-        src="src/img/focaccia_barese_medium.png"
-        class="rounded mx-auto d-block home_image"
-        alt="Focaccia barese"
-      />
-    </div>
-    <!--Box 2: Recipe thumbnails
+        <nav class="navbar navbar-fixed-top">
+          <!--<a class="menu__item" href="#">Home</a>-->
+          <a class="menu__item" href="#breakfast">Breakfast</a>
+          <a class="menu__item" href="#lunch">Lunch</a>
+          <a class="menu__item" href="#dinner">dinner</a>
+          <!--<a class="menu__item" href="#">About</a>
+    <a class="menu__item" href="#">Contact</a>-->
+        </nav>
+      </header>
+      <div class="link__back">
+        <a class="link__back" href="Recipe_article.html"
+          >Link to article page</a
+        >
+      </div>
+      <main>
+        <!--Box 1: Big image-->
+        <hr />
+
+        <div class="recipe__img__container">
+          <img
+            src="https://fakeimg.pl/300x300/?text=recipe 1"
+            alt="..."
+            class="recipe__img"
+          />
+        </div>
+        <!--Box 2: Recipe thumbnails
     Small recipe boxes (3-4?)
     - image
     - Title
     - Short description (accordion) -->
-    <hr />
+        <hr />
 
-    <section class="breakfast" id="breakfast">
-      <div class="section__title">
-        <p>Breakfast</p>
-      </div>
-      <div class="container__thumbnails">
-        <div class="thumbnail" class="thumbnail__recipe1">
-          <!--<figure>-->
-          <img
-            src="https://fakeimg.pl/300x300/?text=recipe 1"
-            alt="..."
-            class="img-thumbnail"
-          />
-          <!-- <figcaption>
+        <section class="breakfast" id="breakfast">
+          <div class="section__title">
+            <p>Breakfast</p>
+          </div>
+          <div class="container__thumbnails">
+            <div class="thumbnail" class="thumbnail__recipe1">
+              <!--<figure>-->
+              <img
+                src="https://fakeimg.pl/300x300/?text=recipe 1"
+                alt="..."
+                class="img-thumbnail"
+              />
+              <!-- <figcaption>
               Lorem ipsum
             </figcaption>*/
           </figure>-->
-        </div>
-        <div class="thumbnail" class="thumbnail__recipe2">
-          <img
-            src="https://fakeimg.pl/300x300/?text=recipe 2"
-            alt="..."
-            class="img-thumbnail"
-          />
-        </div>
-        <div class="thumbnail" class="thumbnail__recipe3">
-          <img
-            src="https://fakeimg.pl/300x300/?text=recipe 3"
-            alt="..."
-            class="img-thumbnail"
-          />
-        </div>
-      </div>
-    </section>
+            </div>
+            <div class="thumbnail" class="thumbnail__recipe2">
+              <img
+                src="https://fakeimg.pl/300x300/?text=recipe 2"
+                alt="..."
+                class="img-thumbnail"
+              />
+            </div>
+            <div class="thumbnail" class="thumbnail__recipe3">
+              <img
+                src="https://fakeimg.pl/300x300/?text=recipe 3"
+                alt="..."
+                class="img-thumbnail"
+              />
+            </div>
+          </div>
+        </section>
 
-    <section class="dinner" id="lunch">
-      <div class="section__title">
-        <p>Lunch</p>
-      </div>
-      <div class="container__thumbnails">
-        <div class="thumbnail" class="thumbnail__recipe1">
-          <img
-            src="src/img/tortellini300.png"
-            alt="..."
-            class="img-thumbnail"
-          />
-        </div>
+        <section class="dinner" id="lunch">
+          <div class="section__title">
+            <p>Lunch</p>
+          </div>
+          <div class="container__thumbnails">
+            <div class="thumbnail" class="thumbnail__recipe1">
+              <img
+                src="src/img/tortellini300.png"
+                alt="..."
+                class="img-thumbnail"
+              />
+            </div>
 
-        <div class="thumbnail" class="thumbnail__recipe2">
-          <img src="src/img/sfincione300.png" alt="..." class="img-thumbnail" />
-        </div>
-        <div class="thumbnail" class="thumbnail__recipe3">
-          <img
-            src="src/img/maltagliati300.png"
-            alt="..."
-            class="img-thumbnail"
-          />
-        </div>
-      </div>
-    </section>
+            <div class="thumbnail" class="thumbnail__recipe2">
+              <img
+                src="src/img/sfincione300.png"
+                alt="..."
+                class="img-thumbnail"
+              />
+            </div>
+            <div class="thumbnail" class="thumbnail__recipe3">
+              <img
+                src="src/img/maltagliati300.png"
+                alt="..."
+                class="img-thumbnail"
+              />
+            </div>
+          </div>
+        </section>
 
-    <section class="dinner" id="dinner">
-      <div class="section__title">
-        <p>Dinner</p>
-      </div>
-      <div class="container__thumbnails">
-        <div class="thumbnail" class="thumbnail__recipe1">
-          <img
-            src="src/img/tortellini300.png"
-            alt="..."
-            class="img-thumbnail"
-          />
-        </div>
-        <div class="thumbnail" class="thumbnail__recipe2">
-          <img src="src/img/sfincione300.png" alt="..." class="img-thumbnail" />
-        </div>
-        <div class="thumbnail" class="thumbnail__recipe3">
-          <img
-            src="src/img/maltagliati300.png"
-            alt="..."
-            class="img-thumbnail"
-          />
-        </div>
-      </div>
-    </section>
-    <!-- Footer
+        <section class="dinner" id="dinner">
+          <div class="section__title">
+            <p>Dinner</p>
+          </div>
+          <div class="container__thumbnails">
+            <div class="thumbnail" class="thumbnail__recipe1">
+              <img
+                src="src/img/tortellini300.png"
+                alt="..."
+                class="img-thumbnail"
+              />
+            </div>
+            <div class="thumbnail" class="thumbnail__recipe2">
+              <img
+                src="src/img/sfincione300.png"
+                alt="..."
+                class="img-thumbnail"
+              />
+            </div>
+            <div class="thumbnail" class="thumbnail__recipe3">
+              <img
+                src="src/img/maltagliati300.png"
+                alt="..."
+                class="img-thumbnail"
+              />
+            </div>
+          </div>
+        </section>
+        <!-- Footer
    - Copyright-->
-    <!--Footer
+        <!--Footer
   copyright, contact-->
+      </main>
+    </div>
+    <footer class="footer">
+      <p class="copyright">© cucina quarantena. 2021</p>
+    </footer>
   </body>
 </html>
