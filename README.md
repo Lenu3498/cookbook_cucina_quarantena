@@ -1,2 +1,2 @@
-# cookbook_cucina_quarantena
+# cookbook_project
 Created with CodeSandbox
