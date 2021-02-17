@@ -214,3 +214,18 @@ border-top: 1.5px dotted  #701a1a;
   padding: 15px;
   align-items: baseline;
 }
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*border: 2px solid green;*/
+}
+.link__mail {
+  text-decoration: none;
+  color: #ffe140;
+}
+
+.link__mail:hover {
+  color:  #ffe140;
+}
