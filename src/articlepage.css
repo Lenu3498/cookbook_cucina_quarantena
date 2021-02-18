@@ -197,6 +197,7 @@ border-top: 1.5px dotted  #701a1a;
 
 .recipe__description {
   padding: 15px 0px;
+  max-width: 600px;
 
 }
 
