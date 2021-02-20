@@ -204,9 +204,9 @@ border-top: 1.5px dotted  #701a1a;
 }
 
 .recipe__instructions {
-  /*border: 2px solid green;*/
+  max-width: 900px;
+  border: 2px solid blue;
 }
-
 
 
 .footer {
