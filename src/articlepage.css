@@ -155,7 +155,7 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid green;
+  /*border: 2px solid green;*/
 }
 
 .recipe__img__container {
@@ -180,7 +180,7 @@ h3 {
   font-weight: bold;
   margin-bottom: 20px;
   /*max-width: 1000px;*/
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 .recipe__title {
@@ -205,7 +205,7 @@ border-top: 1.5px dotted  #701a1a;
 
 .recipe__instructions {
   max-width: 900px;
-  border: 2px solid blue;
+  /*border: 2px solid blue;*/
 }
 
 
