@@ -218,9 +218,9 @@ body {
 }
 
 
-.container__thumbnails {
+.container__carousels {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   /*background-color: #701a1a;*/
   /*background-color: antiquewhite;
@@ -228,6 +228,10 @@ body {
   padding: 20px 20px 20px 20px;
   /*border: solid 4px red;*/
   margin: 20px 0px;
+}
+
+.carousel {
+  margin: 10px;
 }
 
 .thumbnail {
