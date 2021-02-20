@@ -253,12 +253,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 2px solid green;
+  /*border: 2px solid green;*/
   text-align: center;
 }
 
 .copyright {
-  border: 2px solid yellow;
+  /*border: 2px solid yellow;*/
   font-size: 15px;
 }
 

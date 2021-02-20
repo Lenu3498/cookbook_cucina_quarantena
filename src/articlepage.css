@@ -222,6 +222,7 @@ border-top: 1.5px dotted  #701a1a;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
   /*border: 2px solid green;*/
 }
 .link__mail {
