@@ -52,6 +52,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Goudy Old Style", Serif, cursive;
+  font-size: 100%;
   margin: 20px;
   background-color: #fffff0;
 }
@@ -61,11 +62,6 @@ body {
     padding-bottom: 50px;
   }
 
-  .title {
-    /*text-transform: uppercase;*/
-    /*text-align: center;*/
-    font-size: 40px;
-  }
 
   .container__header {
     display: flex;
