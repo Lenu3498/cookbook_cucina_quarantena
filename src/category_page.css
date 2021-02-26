@@ -56,6 +56,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Goudy Old Style", Serif, cursive;
+  font-size: 100%;
   margin: 20px;
   background-color: #fffff0;
 
@@ -92,7 +93,7 @@ height: 60%;
 
 h1 {
   color: #ffe140;
-  font-size: 50px;
+  /*font-size: 50px;*/
   /*padding-left: 30px;*/
 }
 
@@ -101,7 +102,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.5rem,
+  font-size: 2rem,
   font-weight: bold;
   text-align: center;
   margin: 0px 0px 10px; 0px;
@@ -109,7 +110,7 @@ h2 {
 
 h3 {
   color: #fffff0;
-  font-size: 26px;
+  font-size: 1.7rem;
   text-align: right;
   font-style: italic;
   padding-top: 20px;
@@ -126,7 +127,7 @@ h3 {
 .menu__item {
   color: #fffff0;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1rem;
   transition: transform 0.2s;
   text-decoration: none;
 }
@@ -158,32 +159,32 @@ h3 {
   justify-content: space-around;
   width: 100%;
   margin: 30px 0px;
-  /*border: 2px solid green;*/
+  border: 2px solid green;
 }
 
 .container_recipe {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin: 30px; 0px; 0px; 0px;
-  /*border: 2px solid yellow;*/
+  border: 2px solid yellow;
 }
 
 .container__img{
-/*  border: 2px solid blue;*/
+ border: 2px solid blue;
   width: 40%;
 }
 
 .recipe__img {
   width: 100%;
-  padding: 20px;
+  padding: 2rem;
 }
 
 
 .recipe__title {
   padding: 15px 0px 0px 0px;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
   font-style: italic;
   font-weight: bold;
@@ -193,12 +194,14 @@ h3 {
   display: flex;
   flex-direction: column;
   width: 50%;
-  /*border: 2px solid pink;*/
+  border: 2px solid pink;
+  padding: 2rem;
 }
 
 .description {
-  font-size: 15px;
+  font-size: 1rem;
 }
+
 hr {width: 30%;
 margin: auto;
 border-top: 1.5px dotted  #701a1a;
@@ -228,6 +231,7 @@ border-top: 1.5px dotted  #701a1a;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  font-size: 1rem;
 }
 .link__mail {
   text-decoration: none;
@@ -249,4 +253,22 @@ border-top: 1.5px dotted  #701a1a;
 .container__img {
   width: 100%;
 }
+}
+
+@media screen and (max-width: 64em) {
+ body {
+      font-size: 90%;
+   }
+}
+
+@media screen and (max-width: 50em) {
+ body {
+       font-size: 75%;
+   }
+}
+
+@media screen and (max-width: 30em) {
+   body {
+        font-size: 50%;
+  }
 }
