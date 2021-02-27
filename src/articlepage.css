@@ -86,6 +86,14 @@ padding: 10px;
 height: 60%;
 }
 
+.link__header {
+  text-decoration: none;
+}
+
+.link__header:hover {
+  text-decoration: none;
+}
+
 h1 {
   color: #ffe140;
   font-size: 3rem;
