@@ -180,7 +180,7 @@ h3 {
 
 .recipe__img {
   width: 100%;
-  padding: 2rem;
+  /*padding: 2rem;*/
 }
 
 
@@ -255,6 +255,11 @@ border-top: 1.5px dotted  #701a1a;
 .container__img {
   width: 100%;
 }
+}
+
+@media (min-width: 645px) {
+  .recipe__img {
+    max-width: 300px;
 }
 
 @media screen and (max-width: 64em) {
